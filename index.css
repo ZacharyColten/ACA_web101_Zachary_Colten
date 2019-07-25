@@ -87,7 +87,7 @@
     margin: 3% auto;
   }
  
-  button {
+  a.button {
     grid-column: 2/3;
     margin: 3% auto;
     width: 70%;
@@ -99,9 +99,14 @@
     padding: 20px;
     padding-bottom: 5%;
     text-align: center;
-    color: white;
+    color: r gb(0, 0, 0);
     letter-spacing: 16px;
     font-style: italic;
+    border: 1px solid black;
+  }
+
+  a.button:hover {
+    background-color: gray;
   }
   
 /* Small and up (Landscape Phones) */
