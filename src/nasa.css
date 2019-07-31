@@ -4,7 +4,7 @@ body {
 }
 
 .container-nasa {
-  background-image: url('../nasaimage.jpg');
+  background-image: url('../Images/nasaimage.jpg');
   height: 450px;
   width: 850px;
   background-size: cover;
