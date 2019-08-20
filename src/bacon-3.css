@@ -1,5 +1,5 @@
 .container {
-  color: white;
+  color: blue;
   display: flex;
   flex-direction: column;
   font-family: 'Rokkitt', serif;
@@ -16,11 +16,6 @@
 
 .heading {
   font-size: 3em;
-}
-
-.top-areacontent {
-  display: flex;
-  flex-direction: row;
 }
 
 .bottom-area {
@@ -42,12 +37,12 @@
 
 #bottombox1 {
   height: 5vh;
-  background-color: blueviolet;
+  background-color: blue;
 }
 
 #bottombox2 {
   height: 5vh;
-  background-color: orange;
+  background-color: blue;
 }
 
 #bottombox3 {
@@ -59,10 +54,6 @@
   margin: 5%;
   text-align: center;
   font-size: 2em;
-  transition: 1s;
-}
-.title:hover {
-  transform: rotate(360deg);
 }
 
 .content1 {
@@ -71,22 +62,9 @@
   font-size: 1em;
 }
 
-.has-border {
-  border-radius: 25px;
-  border: 2px solid #0795C3;
-  background-image: url("/Images/nasaimage.jpg");
-  background-size: contain;
-  padding: 20px;
-  opacity: 0.5;
-  transition: 1s;
-  }
-  .has-border:hover {
-    opacity: 1;
-  }
-
 @media (min-width: 576px) {
   .container {
-    color: white;
+    color: blue;
     display: flex;
     flex-direction: column;
     font-family: 'Rokkitt', serif;
@@ -101,10 +79,6 @@
   }
   .heading {
     font-size: 3em;
-  }
-  .top-areacontent {
-    display: flex;
-    flex-direction: row;
   }
   .bottom-area {
     height: 75%;
@@ -123,11 +97,11 @@
   }
   #bottombox1 {
     height: 5vh;
-    background-color: blueviolet;
+    background-color: blue;
   }
   #bottombox2 {
     height: 5vh;
-    background-color: orange;
+    background-color: blue;
   }
   #bottombox3 {
     height: 5vh;
@@ -137,33 +111,17 @@
     margin: 5%;
     text-align: center;
     font-size: 2em;
-    transition: 1s;
-  }
-  .title:hover {
-    transform: rotate(360deg);
   }
   .content1 {
     margin: 0;
     text-align: center;
     font-size: 1em;
   }
-  .has-border {
-    border-radius: 25px;
-    border: 2px solid #0795C3;
-    background-image: url("/Images/nasaimage.jpg");
-    background-size: contain;
-    padding: 20px;
-    opacity: 0.5;
-    transition: 1s;
-  }
-  .has-border:hover {
-    opacity: 1;
-  }
 }
 
 @media (min-width: 992px) {
   .container {
-    color: white;
+    color: blue;
     display: flex;
     flex-direction: column;
     font-family: 'Rokkitt', serif;
@@ -178,10 +136,6 @@
   }
   .heading {
     font-size: 5em;
-  }
-  .top-areacontent {
-    display: flex;
-    flex-direction: row;
   }
   .bottom-area {
     display: flex;
@@ -200,11 +154,11 @@
   }
   #bottombox1 {
     height: 5vh;
-    background-color: blueviolet;
+    background-color: blue;
   }
   #bottombox2 {
     height: 5vh;
-    background-color: orange;
+    background-color: blue;
   }
   #bottombox3 {
     height: 5vh;
@@ -214,26 +168,10 @@
     margin: 5%;
     text-align: center;
     font-size: 3em;
-    transition: 1s;
-  }
-  .title:hover {
-    transform: rotate(360deg);
   }
   .content1 {
     margin: 0;
     text-align: center;
     font-size: 150%;
-  }
-  .has-border {
-    border-radius: 25px;
-    border: 2px solid #0795C3;
-    background-image: url("/Images/nasaimage.jpg");
-    background-size: contain;
-    padding: 20px;
-    opacity: 0.5;
-    transition: 1s;
-  }
-  .has-border:hover {
-    opacity: 1;
   }
 }

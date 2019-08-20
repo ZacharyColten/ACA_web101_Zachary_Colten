@@ -18,11 +18,6 @@
   font-size: 3em;
 }
 
-.top-areacontent {
-  display: flex;
-  flex-direction: row;
-}
-
 .bottom-area {
   height: 75%;
   display: flex;
@@ -59,10 +54,6 @@
   margin: 5%;
   text-align: center;
   font-size: 2em;
-  transition: 1s;
-}
-.title:hover {
-  transform: rotate(360deg);
 }
 
 .content1 {
@@ -70,19 +61,6 @@
   text-align: center;
   font-size: 1em;
 }
-
-.has-border {
-  border-radius: 25px;
-  border: 2px solid #0795C3;
-  background-image: url("/Images/nasaimage.jpg");
-  background-size: contain;
-  padding: 20px;
-  opacity: 0.5;
-  transition: 1s;
-  }
-  .has-border:hover {
-    opacity: 1;
-  }
 
 @media (min-width: 576px) {
   .container {
@@ -101,10 +79,6 @@
   }
   .heading {
     font-size: 3em;
-  }
-  .top-areacontent {
-    display: flex;
-    flex-direction: row;
   }
   .bottom-area {
     height: 75%;
@@ -137,27 +111,11 @@
     margin: 5%;
     text-align: center;
     font-size: 2em;
-    transition: 1s;
-  }
-  .title:hover {
-    transform: rotate(360deg);
   }
   .content1 {
     margin: 0;
     text-align: center;
     font-size: 1em;
-  }
-  .has-border {
-    border-radius: 25px;
-    border: 2px solid #0795C3;
-    background-image: url("/Images/nasaimage.jpg");
-    background-size: contain;
-    padding: 20px;
-    opacity: 0.5;
-    transition: 1s;
-  }
-  .has-border:hover {
-    opacity: 1;
   }
 }
 
@@ -178,10 +136,6 @@
   }
   .heading {
     font-size: 5em;
-  }
-  .top-areacontent {
-    display: flex;
-    flex-direction: row;
   }
   .bottom-area {
     display: flex;
@@ -214,26 +168,10 @@
     margin: 5%;
     text-align: center;
     font-size: 3em;
-    transition: 1s;
-  }
-  .title:hover {
-    transform: rotate(360deg);
   }
   .content1 {
     margin: 0;
     text-align: center;
     font-size: 150%;
-  }
-  .has-border {
-    border-radius: 25px;
-    border: 2px solid #0795C3;
-    background-image: url("/Images/nasaimage.jpg");
-    background-size: contain;
-    padding: 20px;
-    opacity: 0.5;
-    transition: 1s;
-  }
-  .has-border:hover {
-    opacity: 1;
   }
 }
