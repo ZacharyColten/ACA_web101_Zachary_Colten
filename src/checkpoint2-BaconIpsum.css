@@ -79,6 +79,7 @@
   padding: 20px;
   opacity: 0.5;
   transition: 1s;
+  font-size: 150%;
   }
   .has-border:hover {
     opacity: 1;
@@ -155,6 +156,7 @@
     padding: 20px;
     opacity: 0.5;
     transition: 1s;
+    font-size: 150%;
   }
   .has-border:hover {
     opacity: 1;
@@ -232,6 +234,7 @@
     padding: 20px;
     opacity: 0.5;
     transition: 1s;
+    font-size: 150%;
   }
   .has-border:hover {
     opacity: 1;
