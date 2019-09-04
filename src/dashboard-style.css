@@ -296,10 +296,78 @@ input {
     grid-area: greeting;
 }
 
+#stressreliever {
+    grid-area: stressreliever;
+}
+
 .container {
     display: grid;
     /* Using the grid */
-    grid-template-areas: "calculator" "calendar" "clock" "todo" "greeting";
+    grid-template-areas: "stressreliever" "calculator" "clock" "calendar" "todo";
+}
+
+.body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+/*clicker style*/
+
+.buttonst {
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    outline: none;
+    font-size: 400%;
+}
+
+.button:active {
+    vertical-align: top;
+    padding: 8px 13px 6px;
+    background-color: orange;
+}
+
+.button-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 600px;
+}
+
+.div {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* click counter style*/
+
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+/* timer style*/
+
+span {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Small and up (Landscape Phones) */
@@ -543,10 +611,66 @@ input {
     #greeting {
         grid-area: greeting;
     }
+    #stressreliever {
+        grid-area: stressreliever;
+    }
     .container {
         display: grid;
         /* Using the grid */
-        grid-template-areas: "calculator" "calendar" "clock" "todo" "greeting";
+        grid-template-areas: "stressreliever stressreliever" "calculator clock" "calendar todo";
+    }
+    .body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    /*clicker style*/
+    .buttonst {
+        height: 300px;
+        width: 300px;
+        background-color: blueviolet;
+        border-radius: 50%;
+        outline: none;
+        font-size: 400%;
+    }
+    .button:active {
+        vertical-align: top;
+        padding: 8px 13px 6px;
+        background-color: orange;
+    }
+    .button-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+        width: 600px;
+    }
+    .div {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* click counter style*/
+    p {
+        font-family: 'Indie Flower', cursive;
+        font-size: 40px;
+        color: white;
+    }
+    /* timer style*/
+    span {
+        color: white;
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+    }
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -791,13 +915,70 @@ input {
     #greeting {
         grid-area: greeting;
     }
+    #stressreliever {
+        grid-area: stressreliever;
+    }
     .container {
         display: grid;
         /* Using the grid */
-        grid-template-areas: "calculator" "calendar" "clock" "todo" "greeting";
+        grid-template-areas: "stressreliever stressreliever" "calculator" "clock" "calendar" "todo";
+    }
+    .body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    /*clicker style*/
+    .buttonst {
+        height: 300px;
+        width: 300px;
+        background-color: blueviolet;
+        border-radius: 50%;
+        outline: none;
+        font-size: 400%;
+    }
+    .button:active {
+        vertical-align: top;
+        padding: 8px 13px 6px;
+        background-color: orange;
+    }
+    .button-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+        width: 600px;
+    }
+    .div {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* click counter style*/
+    p {
+        font-family: 'Indie Flower', cursive;
+        font-size: 40px;
+        color: white;
+    }
+    /* timer style*/
+    span {
+        color: white;
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+    }
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
+;
 /* Large and up (Desktops) */
 
 @media (min-width: 992px) {
@@ -1039,10 +1220,66 @@ input {
     #greeting {
         grid-area: greeting;
     }
+    #stressreliever {
+        grid-area: stressreliever;
+    }
     .container {
         display: grid;
         /* Using the grid */
-        grid-template-areas: "calculator clock" "calendar todo" "greeting greeting";
+        grid-template-areas: "stressreliever stressreliever" "calculator clock" "calendar todo";
+    }
+    .body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    /*clicker style*/
+    .buttonst {
+        height: 300px;
+        width: 300px;
+        background-color: blueviolet;
+        border-radius: 50%;
+        outline: none;
+        font-size: 400%;
+    }
+    .button:active {
+        vertical-align: top;
+        padding: 8px 13px 6px;
+        background-color: orange;
+    }
+    .button-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+        width: 600px;
+    }
+    .div {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* click counter style*/
+    p {
+        font-family: 'Indie Flower', cursive;
+        font-size: 40px;
+        color: white;
+    }
+    /* timer style*/
+    span {
+        color: white;
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+    }
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -1287,9 +1524,65 @@ input {
     #greeting {
         grid-area: greeting;
     }
+    #stressreliever {
+        grid-area: stressreliever;
+    }
     .container {
         display: grid;
         /* Using the grid */
-        grid-template-areas: "calculator clock" "calendar todo" "greeting greeting";
+        grid-template-areas: "stressreliever stressreliever" "calculator clock" "calendar todo";
+    }
+    .body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    /*clicker style*/
+    .buttonst {
+        height: 300px;
+        width: 300px;
+        background-color: blueviolet;
+        border-radius: 50%;
+        outline: none;
+        font-size: 400%;
+    }
+    .button:active {
+        vertical-align: top;
+        padding: 8px 13px 6px;
+        background-color: orange;
+    }
+    .button-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+        width: 600px;
+    }
+    .div {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* click counter style*/
+    p {
+        font-family: 'Indie Flower', cursive;
+        font-size: 40px;
+        color: white;
+    }
+    /* timer style*/
+    span {
+        color: white;
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+    }
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
