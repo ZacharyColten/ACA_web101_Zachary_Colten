@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+//To Do widget
   // This adds the class .checked to the list items when clicked on.
 
   $("li").click(function () {
@@ -17,7 +17,7 @@ $(document).ready(function () {
 
 
 })
-
+//Checkpoint 3 Javascript
 //variable starting value of clicks
 var clicks = 0;
 //click function and adds number of clicks to p tag with id set to "clicks"
