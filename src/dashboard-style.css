@@ -323,7 +323,7 @@ input {
     font-size: 400%;
 }
 
-.button:active {
+.buttonst:active {
     vertical-align: top;
     padding: 8px 13px 6px;
     background-color: orange;
@@ -633,7 +633,7 @@ span {
         outline: none;
         font-size: 400%;
     }
-    .button:active {
+    .buttonst:active {
         vertical-align: top;
         padding: 8px 13px 6px;
         background-color: orange;
@@ -937,7 +937,7 @@ span {
         outline: none;
         font-size: 400%;
     }
-    .button:active {
+    .buttonst:active {
         vertical-align: top;
         padding: 8px 13px 6px;
         background-color: orange;
@@ -1242,7 +1242,7 @@ span {
         outline: none;
         font-size: 400%;
     }
-    .button:active {
+    .buttonst:active {
         vertical-align: top;
         padding: 8px 13px 6px;
         background-color: orange;
@@ -1546,7 +1546,7 @@ span {
         outline: none;
         font-size: 400%;
     }
-    .button:active {
+    .buttonst:active {
         vertical-align: top;
         padding: 8px 13px 6px;
         background-color: orange;
