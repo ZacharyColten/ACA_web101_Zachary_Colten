@@ -617,7 +617,7 @@ span {
     .container {
         display: grid;
         /* Using the grid */
-        grid-template-areas: "stressreliever stressreliever" "calculator clock" "calendar todo";
+        grid-template-areas: "stressreliever" "calculator" "clock" "calendar" "todo";
     }
     .body {
         background-color: black;
