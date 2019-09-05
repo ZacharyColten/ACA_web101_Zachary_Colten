@@ -61,6 +61,7 @@ html {
 body {
     min-height: 100vh;
     background: var(--blue-grey-100);
+
 }
 
 main {
@@ -290,6 +291,7 @@ input {
 
 #todo {
     grid-area: todo;
+    width: 95vw;
 }
 
 #greeting {
@@ -298,6 +300,7 @@ input {
 
 #stressreliever {
     grid-area: stressreliever;
+    width: 95vw;
 }
 
 .container {
@@ -338,13 +341,7 @@ input {
     width: 600px;
 }
 
-.div {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 /* click counter style*/
 
@@ -646,13 +643,7 @@ span {
         height: 650px;
         width: 600px;
     }
-    .div {
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+   
     /* click counter style*/
     p {
         font-family: 'Indie Flower', cursive;
@@ -950,13 +941,7 @@ span {
         height: 650px;
         width: 600px;
     }
-    .div {
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+   
     /* click counter style*/
     p {
         font-family: 'Indie Flower', cursive;
@@ -1255,13 +1240,7 @@ span {
         height: 650px;
         width: 600px;
     }
-    .div {
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+ 
     /* click counter style*/
     p {
         font-family: 'Indie Flower', cursive;
@@ -1520,12 +1499,15 @@ span {
     }
     #todo {
         grid-area: todo;
+        width: 70%;
     }
     #greeting {
         grid-area: greeting;
     }
     #stressreliever {
         grid-area: stressreliever;
+        margin-left: auto;
+        margin-right: auto;
     }
     .container {
         display: grid;
@@ -1559,13 +1541,7 @@ span {
         height: 650px;
         width: 600px;
     }
-    .div {
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    
     /* click counter style*/
     p {
         font-family: 'Indie Flower', cursive;

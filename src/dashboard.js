@@ -48,3 +48,4 @@ function timer() {
   document.getElementById("timer").innerHTML = count + " secs";
 
 }
+
