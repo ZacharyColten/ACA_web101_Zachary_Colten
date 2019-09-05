@@ -1,5 +1,5 @@
 $(document).ready(function () {
-//To Do widget
+  //To Do widget
   // This adds the class .checked to the list items when clicked on.
 
   $("li").click(function () {

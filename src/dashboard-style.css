@@ -61,7 +61,6 @@ html {
 body {
     min-height: 100vh;
     background: var(--blue-grey-100);
-
 }
 
 main {
@@ -291,7 +290,7 @@ input {
 
 #todo {
     grid-area: todo;
-    width: 95vw;
+    width: 100vw;
 }
 
 #greeting {
@@ -300,7 +299,7 @@ input {
 
 #stressreliever {
     grid-area: stressreliever;
-    width: 95vw;
+    width: 100vw;
 }
 
 .container {
@@ -340,8 +339,6 @@ input {
     height: 650px;
     width: 600px;
 }
-
-
 
 /* click counter style*/
 
@@ -643,7 +640,6 @@ span {
         height: 650px;
         width: 600px;
     }
-   
     /* click counter style*/
     p {
         font-family: 'Indie Flower', cursive;
@@ -941,7 +937,6 @@ span {
         height: 650px;
         width: 600px;
     }
-   
     /* click counter style*/
     p {
         font-family: 'Indie Flower', cursive;
@@ -1207,6 +1202,7 @@ span {
     }
     #stressreliever {
         grid-area: stressreliever;
+        width: 50;
     }
     .container {
         display: grid;
@@ -1240,7 +1236,6 @@ span {
         height: 650px;
         width: 600px;
     }
- 
     /* click counter style*/
     p {
         font-family: 'Indie Flower', cursive;
@@ -1499,15 +1494,14 @@ span {
     }
     #todo {
         grid-area: todo;
-        width: 70%;
+        width: 33vw;
     }
     #greeting {
         grid-area: greeting;
     }
     #stressreliever {
         grid-area: stressreliever;
-        margin-left: auto;
-        margin-right: auto;
+        width: 50vw;
     }
     .container {
         display: grid;
@@ -1541,7 +1535,6 @@ span {
         height: 650px;
         width: 600px;
     }
-    
     /* click counter style*/
     p {
         font-family: 'Indie Flower', cursive;
