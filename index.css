@@ -60,10 +60,9 @@
   }
  
   #profile-pic {
-    width:500px;
-    height:300px;
+    width:100%;
     border-radius: 50%;
-    margin: 15% auto;
+    margin: auto;
     grid-column: 2/3;
   }
  
@@ -172,8 +171,7 @@
   }
  
   #profile-pic {
-    width:500px;
-    height:300px;
+    width:100%;
     border-radius: 50%;
     margin: 15% auto;
     grid-column: 2/3;
@@ -279,8 +277,7 @@
   }
  
   #profile-pic {
-    width:500px;
-    height:300px;
+    width:100%;
     border-radius: 50%;
     margin: 15% auto;
     grid-column: 2/3;
@@ -385,8 +382,7 @@
   }
  
   #profile-pic {
-    width:500px;
-    height:300px;
+    width:100%;
     border-radius: 50%;
     margin: 15% auto;
     grid-column: 2/3;
@@ -491,8 +487,7 @@
   }
  
   #profile-pic {
-    width:500px;
-    height:300px;
+    width: 100%;
     border-radius: 50%;
     margin: 15% auto;
     grid-column: 2/3;
